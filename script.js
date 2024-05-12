@@ -16,7 +16,6 @@ dark_btn.onclick = function(){
         localStorage.setItem("theme","light")
     }
 }
-
 if(localStorage.getItem("theme")=="light"){
     dark_btn.classList.remove("dark-btn-on")
     document.body.classList.remove("dark-theme")
