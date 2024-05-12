@@ -508,18 +508,21 @@ nav{
     padding: 2px 3px;
     cursor: pointer;
     display: flex;
-    transition:padding-left 0.5s,background 0.5s;
+    
+}
+#dark-btn.dark-btn-on {
+    background-color: #000;
 }
 #dark-btn span{
-    width: 18px;
-    height: 18px;
+    width: 16px;
+    height: 16px;
     background: #fff;
     border-radius: 50%;
-    display:inline-block;
+    display:inline-flex;
+    transition: transform 0.3s ease;
 }
-.dark-btn-on{
-    padding-left: 23px;
-    background: #000;
 
+#dark-btn.dark-btn-on span {
+    transform: translateX(30px);
 }
 
