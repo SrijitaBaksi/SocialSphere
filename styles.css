@@ -9,11 +9,13 @@
     --body-color:#efefef;
     --nav-color:#1876f2;
     --bg-color:#fff;
+    --write-color: #000;
 }
 .dark-theme{
     --body-color:#0a0a0a;
     --nav-color:#000;
     --bg-color:#000;
+    --write-color: #fff;
 }
 body{
     background: var(--body-color);
@@ -360,6 +362,7 @@ nav{
     border-bottom: 1px solid #ccc;
     background: transparent;
     resize: none;
+    color: var(--write-color);
 }
 
 .add-post-links{
