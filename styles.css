@@ -5,9 +5,19 @@
     padding: 0;
     font-family: "Poppins", sans-serif;
 }
-
+:root{
+    --body-color:#efefef;
+    --nav-color:#1876f2;
+    --bg-color:#fff;
+}
+.dark-theme{
+    --body-color:#0a0a0a;
+    --nav-color:#000;
+    --bg-color:#000;
+}
 body{
-    background: #efefef;
+    background: var(--body-color);
+    transition:background 0.3s;
 }
 /* Navigation */
 nav{
@@ -17,7 +27,7 @@ nav{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background: #1876f2;
+    background: var(--nav-color);
     padding: 5px 5%;
 }
 
@@ -98,14 +108,22 @@ nav{
     
 }
 
-.left-side-bar, .right-side-bar{
+.left-side-bar{
     flex-basis: 25%;
     position: sticky;
     align-self: flex-start;
-    top: 0;
-}
-.left-side-bar{
+    top: 70px;
     margin-right: 15px;
+}
+
+.right-side-bar{
+    flex-basis: 25%;
+    position: sticky;
+    align-self: flex-start;
+    top: 70px;
+    /* background:var(--bg-color); */
+    color:#626262;
+    border-radius: 4px;
 }
 
 .main-content{
@@ -307,7 +325,7 @@ nav{
 
 .write-post-container{
     width:94%;
-    background:#fff;
+    background:var(--bg-color);
     border-radius: 6px;
     padding:20px;
     color:#626262;
@@ -363,7 +381,7 @@ nav{
 }
 .post-container{
     width:94%;
-    background: #fff;
+    background: var(--bg-color);
     border-radius: 6px;
     padding: 20px;
     color: #626262;

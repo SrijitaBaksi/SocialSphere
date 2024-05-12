@@ -8,4 +8,5 @@ profile_icon.onclick=function(){
 
 dark_btn.onclick = function(){
     dark_btn.classList.toggle("dark-btn-on")
+    document.body.classList.toggle("dark-theme")
 }
