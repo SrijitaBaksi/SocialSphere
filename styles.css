@@ -187,12 +187,12 @@ nav{
     font-size: 12px;
 }
 
-.right-side-bar{
+/* .right-side-bar{
     background-color: #fff;
     padding: 20px;
     border-radius: 4px;
     color: #626262;
-}
+} */
 
 .event{
     display: flex;
@@ -470,7 +470,7 @@ nav{
     width: 90%;
     max-width: 350px;
     /* height: 500px; */
-    background: #fff;
+    background: var(--bg-color);
     box-shadow: 0 0 10px rgba(0,0,0,0.4);
     border-radius: 4px;
     overflow: hidden;
@@ -529,7 +529,7 @@ nav{
     
 }
 #dark-btn.dark-btn-on {
-    background-color: #000;
+    background-color: #2d2d2d;
 }
 #dark-btn span{
     width: 16px;
