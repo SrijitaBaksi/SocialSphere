@@ -9,13 +9,11 @@
     --body-color:#efefef;
     --nav-color:#1876f2;
     --bg-color:#fff;
-    --write-color: #000;
 }
 .dark-theme{
     --body-color:#0a0a0a;
     --nav-color:#000;
     --bg-color:#000;
-    --write-color: #fff;
 }
 body{
     background: var(--body-color);
@@ -461,7 +459,7 @@ nav{
 .footer{
     text-align: center;
     color: #9a9a9a;
-    background-color: #dee3ea;
+    background-color: var(--footer-color);
     /* bottom:0;
     position:sticky; */
     padding: 10px 0 20px;
