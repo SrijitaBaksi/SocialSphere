@@ -96,8 +96,7 @@ nav{
 
 .left-side-bar, .right-side-bar{
     flex-basis: 25%;
-    /* position: sticky; */
-    top: 75%;
+    position: sticky;
     align-self: flex-start;
     height: 100vh;
 }
@@ -407,5 +406,19 @@ nav{
     display: inline-flex;
     align-items: center;
     margin-right: 30px;
+}
+
+.post-profile-icons{
+    display: flex;
+    align-items: center;
+}
+.post-profile-icons img{
+    width:20px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.post-row a{
+    color:#9a9a9a;
 }
 
