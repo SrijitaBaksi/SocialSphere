@@ -11,9 +11,9 @@ body{
 }
 /* Navigation */
 nav{
-    top: 0;
+    /* top: 0; */
     z-index: 1000;
-    position: sticky;
+    /* position: sticky; */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -92,29 +92,21 @@ nav{
     display: flex;
     justify-content: space-between;
     padding: 13px 5%;
+    position: relative;
 }
 
 .left-side-bar, .right-side-bar{
     flex-basis: 25%;
     position: sticky;
     align-self: flex-start;
-    height: 100vh;
-}
-.left-side-bar{
-    margin-right: 15px;
-    top: 0;
-   /* left side bar e gondogol */
-}
-.right-side-bar{
-    margin-left: 15px;
-    top: 0;
+    top: 0px;
 }
 
 .main-content{
     flex-basis: 47%;
     margin-right: 15px;
     /* position: sticky; */
-    align-self: flex-start;
+    /* align-self: flex-start; */
     /* background: #cddffa; */
 }
 
@@ -308,7 +300,7 @@ nav{
 }
 
 .write-post-container{
-    width:94%;
+    width:93%;
     background:#fff;
     border-radius: 6px;
     padding:20px;
@@ -364,7 +356,7 @@ nav{
 
 }
 .post-container{
-    width:94%;
+    width:93%;
     background: #fff;
     border-radius: 6px;
     padding: 20px;
