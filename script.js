@@ -16,7 +16,7 @@ dark_btn.onclick = function(){
         localStorage.setItem("theme","light")
     }
 }
-localStorage.setItem("theme","dark")
+
 localStorage.getItem("theme")
 
 if(localStorage.getItem("theme")=="light"){
