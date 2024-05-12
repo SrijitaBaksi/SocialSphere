@@ -11,6 +11,9 @@ body{
 }
 /* Navigation */
 nav{
+    top: 0;
+    z-index: 1000;
+    position: sticky;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -93,23 +96,24 @@ nav{
 
 .left-side-bar, .right-side-bar{
     flex-basis: 25%;
-    position: sticky;
+    /* position: sticky; */
     top: 75%;
     align-self: flex-start;
     height: 100vh;
 }
 .left-side-bar{
     margin-right: 15px;
+    top: 0;
 }
 .right-side-bar{
     margin-left: 15px;
+    top: 0;
 }
 
 .main-content{
     flex-basis: 47%;
     margin-right: 15px;
-    position: sticky;
-    /* top: 75%; */
+    /* position: sticky; */
     align-self: flex-start;
     /* background: #cddffa; */
 }
