@@ -747,3 +747,59 @@ nav{
     left: 18px;
     margin-top: 15px;
 }
+/* ----media query for home page------- */
+@media(max-width:900px)
+{
+    .right-side-bar{
+        display:none;
+    }
+    .left-side-bar{
+        display:none;
+    }
+    nav{
+        flex-wrap: wrap;
+        
+    }
+    .search-box{
+        display:none;
+    }
+    .logo{
+        width:100px;
+        margin-right: 20px;
+    }
+    .nav-left ul li{
+        width:15px;
+        margin:0 6px;
+    }
+    .nav-user-icon{
+        margin-left:0;
+    }
+    .add-post-links{
+        flex-wrap: wrap;
+    }
+    .main-content{
+        flex-basis:100%;
+    }
+    .story img{
+        width:20px;
+        border-width: 3px;
+    }
+    .story p{
+        font-size:10px;
+    }
+    .story-gallery{
+        width:100%;
+        flex-basis: 100%;
+        gap:10px;
+        margin-left: 5px;
+    }
+    .story1,.story2,.story3,.story4,.story5{
+        padding-right: 10px;
+    }
+    .story.story1 img{
+        width:20px;
+        bottom:30px;
+    }
+    
+    
+}
