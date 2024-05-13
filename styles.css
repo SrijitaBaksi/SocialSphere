@@ -348,7 +348,6 @@ nav{
 }
 .user-profile small{
     font-size: 12px;
-
 }
 
 .post-input-container{
@@ -547,3 +546,11 @@ nav{
     transform: translateX(30px);
 }
 
+
+/* Profile CSS */
+
+.profile-container{
+    padding: 20px 15%;
+    color: #626262;
+    
+}
