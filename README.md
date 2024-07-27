@@ -2,7 +2,11 @@
 
 Welcome to **Social Sphere** – a modern social media website clone crafted with HTML, CSS, and JavaScript. Designed to capture the essence of social networking, Social Sphere offers a sleek and interactive platform for users to connect, share, and engage.
 
-![Social Sphere Screenshot](images/social_sphere_screenshot.png)
+![Social Sphere Screenshot](Images/image8.png)
+
+![Social Sphere Screenshot](Images/image9.png)
+
+![Social Sphere Screenshot](Images/image10.png)
 
 ## **Features** ✨
 
@@ -12,6 +16,7 @@ Welcome to **Social Sphere** – a modern social media website clone crafted wit
 - **Messaging**: Communicate with friends through real-time messaging. 💬
 - **Notifications**: Stay updated with notifications for new messages, friend requests, and activity. 🔔
 - **Responsive Design**: Access Social Sphere seamlessly on any device, from desktop to mobile. 📱💻
+- **Dark Mode**: Experience a visually appealing dark theme that reduces eye strain and enhances focus. 🌙
 
 ## **Tech Stack** 🔧
 
@@ -72,5 +77,5 @@ cd social-sphere
 - Email: baksisrijita04@gmail.com
 - github: https://github.com/SrijitaBaksi
 
-   
+**Thank you for exploring Social Sphere! We hope our social media clone brings a fresh and engaging experience to your social networking needs.**
    
